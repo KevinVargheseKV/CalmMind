@@ -1,27 +1,18 @@
 # 🧘‍♂️ CalmMind — Your Gentle, Empathetic Mental Health Companion
 
-![CalmMind Banner](https://imgur.com/your-banner-if-any.png)
-
 > *“Helping you breathe easier, one kind word at a time.”*
 
-CalmMind is a warm, AI-powered mental health chatbot built with **LangChain**, **Gemini API**, and **ChromaDB**, offering emotional support, self-care tips, and comforting dialogue to users in moments of need.
+**CalmMind** is an AI-powered mental health chatbot that offers supportive, emotionally aware responses using Retrieval-Augmented Generation (RAG), LangChain, Gemini API, and ChromaDB. It's designed to reflect emotions, provide comfort, and suggest gentle self-help strategies — all through a warm Gradio interface.
 
 ---
 
-## 📽 Demo
-
-<p align="center">
-  <img src="https://media.giphy.com/media/3o7bu3XilJ5BOiSGic/giphy.gif" width="600" alt="Chatbot typing animation demo GIF">
-</p>
-
-
 ## 🌟 Key Features
 
-- 💬 Empathetic AI conversation that reflects user feelings
-- 📚 Retrieval-Augmented Generation (RAG) for context-aware suggestions
-- 🤗 Comfort actions like breathing cues, journaling prompts, and grounding techniques
-- ⚙️ Keyword-based detection of emotional challenges (e.g., anxiety, burnout)
-- 🎨 Clean and friendly **Gradio** interface for supportive chat
+- 💬 Empathetic, human-like conversations
+- 📚 Uses RAG to enhance relevance and personalization
+- 🤗 Suggests comforting actions and soft emotional care
+- ⚙️ Detects mental health challenges through keyword mapping
+- 🎨 Gradio-based frontend for an accessible user experience
 
 ---
 
@@ -29,13 +20,13 @@ CalmMind is a warm, AI-powered mental health chatbot built with **LangChain**, *
 
 | Tool                   | Purpose                                  |
 |------------------------|------------------------------------------|
-| LangChain              | Orchestrates LLM calls and retrieval     |
-| Gemini API             | Powers natural, empathic conversation    |
-| ChromaDB               | Stores mental health knowledge vectors   |
-| Google GenAI Embeddings | Enables semantic search in documents   |
-| NLTK                   | Helps with tokenization and keyword mapping |
-| Gradio                 | Frontend interface for the chatbot       |
-| dotenv                 | Manages access to your API key securely  |
+| LangChain              | Orchestrates LLM responses and retrieval |
+| Gemini API             | Powers empathetic conversational output  |
+| ChromaDB               | Stores vector embeddings for documents   |
+| Google GenAI Embeddings | Enables semantic search in knowledge base |
+| NLTK                   | Keyword detection and text processing    |
+| Gradio                 | Chat interface for users                 |
+| python-dotenv          | Loads Gemini API key securely            |
 
 ---
 
