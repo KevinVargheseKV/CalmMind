@@ -4,46 +4,46 @@
 
 > *“Helping you breathe easier, one kind word at a time.”*
 
-**CalmMind** is an LLM-powered empathetic mental health chatbot built using **LangChain**, **Gemini API**, and **ChromaDB**. It provides emotional support, personalized self-care suggestions, and comforting interactions through a human-like chat interface.
-
----
-
-## 🌟 Key Features
-
-- 💬 **Empathetic AI Response:** Reflects the user's emotional tone and supports with warmth.
-- 📚 **RAG (Retrieval-Augmented Generation):** Pulls suggestions from a curated mental health knowledge base.
-- 🤗 **Comfort Actions:** Offers soothing, grounding activities in each response.
-- 🧠 **Issue Detection Engine:** Maps user feelings to common mental health challenges (e.g., burnout, anxiety).
-- 🎯 **Actionable Advice:** Recommends breathing exercises, journaling, digital detox, and more.
-- 🌐 **Gradio Interface:** A clean, friendly chatbot UI that feels human and supportive.
+CalmMind is a warm, AI-powered mental health chatbot built with **LangChain**, **Gemini API**, and **ChromaDB**, offering emotional support, self-care tips, and comforting dialogue to users in moments of need.
 
 ---
 
 ## 📽 Demo
 
-> Here’s a quick look at how CalmMind works in action:
-
 <p align="center">
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNDkwbWw4ajFjc3h3Y3NqMHE2Zmw0azY0eHdyaTkxaTZhYmhrOXU2diZlcD12MV9naWZzX3NlYXJjaCZjdD1n/qgQUggAC3Pfv687qPC/giphy.gif" width="600" alt="CalmMind Demo GIF">
+  <img src="https://media.giphy.com/media/3o7bu3XilJ5BOiSGic/giphy.gif" width="600" alt="Chatbot typing animation demo GIF">
 </p>
+
+
+## 🌟 Key Features
+
+- 💬 Empathetic AI conversation that reflects user feelings
+- 📚 Retrieval-Augmented Generation (RAG) for context-aware suggestions
+- 🤗 Comfort actions like breathing cues, journaling prompts, and grounding techniques
+- ⚙️ Keyword-based detection of emotional challenges (e.g., anxiety, burnout)
+- 🎨 Clean and friendly **Gradio** interface for supportive chat
+
+---
+
 ## 🛠 Tech Stack
 
-| Tool | Purpose |
-|------|---------|
-| 🧠 LangChain | Framework for managing prompts and chaining LLM calls |
-| 🌈 Gemini API (Gemini 2.0 Flash) | LLM that powers empathetic responses |
-| 📁 ChromaDB | Vector database to store mental health documents |
-| 🔍 Google Generative AI Embeddings | For high-quality semantic search |
-| 🧪 NLTK | Tokenization support |
-| 🌐 Gradio | Interactive chatbot frontend |
-| 🔐 Dotenv | Environment key management |
+| Tool                   | Purpose                                  |
+|------------------------|------------------------------------------|
+| LangChain              | Orchestrates LLM calls and retrieval     |
+| Gemini API             | Powers natural, empathic conversation    |
+| ChromaDB               | Stores mental health knowledge vectors   |
+| Google GenAI Embeddings | Enables semantic search in documents   |
+| NLTK                   | Helps with tokenization and keyword mapping |
+| Gradio                 | Frontend interface for the chatbot       |
+| dotenv                 | Manages access to your API key securely  |
 
 ---
 
 ## 🚀 Getting Started
 
-### 1. Clone the Repo
-
 ```bash
-git clone https://github.com/your-username/calmmind.git
-cd calmmind
+git clone https://github.com/your-username/CalmMind.git
+cd CalmMind
+python -m venv venv
+source venv/bin/activate    # Windows: venv\Scripts\activate
+pip install -r requirements.txt
